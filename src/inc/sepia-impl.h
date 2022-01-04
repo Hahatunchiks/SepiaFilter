@@ -4,7 +4,8 @@
 #include "image.h"
 #include "utils.h"
 
-struct image sepia_c_impl(struct image source);
+struct image sepia_c_impl(struct image);
 
-bool sepia_asm_impl();
+struct image sepia_asm_impl(struct image);
+
 #endif
